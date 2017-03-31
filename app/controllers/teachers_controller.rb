@@ -10,4 +10,5 @@ class TeachersController < ApplicationController
     @teacher.destroy
     render :json => { :message => "Deleted teacher and courses"}
   end
+  
 end
