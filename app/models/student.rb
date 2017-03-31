@@ -3,5 +3,5 @@ class Student < ApplicationRecord
   has_many :courses, through: :coz_relationships, source: :course
 
   has_many :edu_relationships
-  has_many :teachers, through: :edu_relationships, souce: :teacher
+  has_many :teachers, through: :edu_relationships, source: :teacher
 end
